@@ -39,12 +39,6 @@ def dict_shapes(points, label, fill_color=None, line_color=None):
 def coordiante_xy(coordinate_x,coordinate_y):
     return [float(coordinate_x),float(coordinate_y)]
 
-def serialize_instance(obj):
-    d = { '__classname__' : type(obj).__name__ }
-    d.update(vars(obj))
-    return d
-
-
 fillColor = [0, 0, 255, 128]
 lineColor = [0, 255, 0, 128]
 
