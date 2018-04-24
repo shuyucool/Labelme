@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # _*_ coding: UTF-8 _*_
 # author:"Zhang Shuyu"
-'''这个函数是为了对json文件解析式进行调试，如果想要了解具体原理，可以使用这个函数，
-在debug模式下可以看到解析的过程'''
+'''这个函数是为了对json文件解析式进行调试，如果想要了解具体解析原理，可以使用这个函数，
+在debug模式下可以看到解析的过程，IDE推荐使用Pycharm,或者使用Spyder进行调试'''
 import argparse
 import json
 import os
